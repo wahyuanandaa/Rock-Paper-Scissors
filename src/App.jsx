@@ -4,7 +4,7 @@ import GameGrid from "./components/GameGrid"
 import Modal from "./components/Modal"
 import Buttons from "./components/Buttons"
 import { gameModes } from "./data.jsx"
-import "../dist/css/index.css"
+import "./styles/index.scss"
 
 function App() {
   const [score, setScore] = useState(0)
