@@ -34,11 +34,6 @@ Users should be able to:
 - Animating transitions with react-transition-group
 - Responsive design with SCSS and custom breakpoints
 
-## Author
-
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
 ## Acknowledgments
 
 Thanks to Frontend Mentor for the challenge and the community for inspiration.
