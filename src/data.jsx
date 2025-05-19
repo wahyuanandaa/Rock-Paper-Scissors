@@ -1,12 +1,15 @@
 import { createRef } from "react"
-import Triangle from "/assets/images/bg-triangle.svg"
-import Pentagon from "/assets/images/bg-pentagon.svg"
+// Gunakan URL string untuk asset di public dengan base path Vite
+function assetPath(name) {
+  return import.meta.env.BASE_URL + "assets/images/" + name;
+}
 
-// Gunakan URL string untuk asset di public
-const OriginalHeader = "/assets/images/logo.svg"
-const BonusHeader = "/assets/images/logo-bonus.svg"
-const OriginalRules = "/assets/images/image-rules.svg"
-const BonusRules = "/assets/images/image-rules-bonus.svg"
+const Triangle = assetPath("bg-triangle.svg");
+const Pentagon = assetPath("bg-pentagon.svg");
+const OriginalHeader = assetPath("logo.svg");
+const BonusHeader = assetPath("logo-bonus.svg");
+const OriginalRules = assetPath("image-rules.svg");
+const BonusRules = assetPath("image-rules-bonus.svg");
 
 export let original = {
   options: ["rock", "paper", "scissors"],
